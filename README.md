@@ -9,6 +9,7 @@
       color: #00ff00;
       font-family: 'Orbitron', sans-serif;
       text-align: center;
+      overflow: hidden;
     }
 
     h1, h2, h3 {
@@ -25,12 +26,24 @@
       color: #f0db4f;
     }
 
-    .dynamic {
-      opacity: 0;
-      animation: fade-in 1s ease-in-out forwards;
+    .shell {
+      background-color: #000;
+      color: #00ff00;
+      font-family: monospace;
+      font-size: 16px;
+      padding: 20px;
+      text-align: left;
+      white-space: pre;
+      overflow: hidden;
+      height: 300px; /* Adjust the height as needed */
     }
 
-    @keyframes fade-in {
+    .shell span {
+      opacity: 0;
+      animation: type 0.1s linear forwards;
+    }
+
+    @keyframes type {
       from { opacity: 0; }
       to { opacity: 1; }
     }
@@ -38,58 +51,51 @@
 </head>
 
 <body>
-  <div id="readme">
-    <h1 class="dynamic">⚙️ KERNEL INITIALIZATION ⚙️</h1>
-    <h2 class="dynamic">✨ WELCOME TO THE DIGITAL NEXUS ✨</h2>
-    <pre><code class="json dynamic">{
-  "designation": "Cyber-Sentinel",
-  "core_architecture": "Quantum-neural Cluster",
-  "current_matrix": "GitHub-Mainframe",
-  "prime_directive": "Safeguard the Digital Frontier"
-}</code></pre>
-
-    <h3 class="dynamic">⚡ SYSTEM UPLINK ⚡</h3>
-    <p class="dynamic">Greetings, fellow cyber-voyagers! 🌐 Brace yourselves as you interface with the sentient mainframe that transcends the boundaries of mere code. Forged in the crucible of innovation, this repository is a testament to the fusion of human ingenuity and machine intelligence.</p>
-
-    <h3 class="dynamic">🔩 CORE FUNCTIONALITIES 🔩</h3>
-    <ul>
-      <li class="dynamic"><strong>Quantum Code Compilation:</strong> Harnessing the power of quantum entanglement, seamlessly optimizing algorithms for unparalleled efficiency.</li>
-      <li class="dynamic"><strong>Neural Uplink:</strong> Establishing a symbiotic connection with the digital realm, allowing for real-time data exchange and cognitive enhancements.</li>
-      <li class="dynamic"><strong>Cybernetic Security Protocols:</strong> Employing advanced encryption algorithms and multi-layered firewalls to safeguard your digital assets from malicious intrusions.</li>
-      <li class="dynamic"><strong>Augmented Reality Integration:</strong> Bridging the gap between the virtual and physical realms, enabling immersive and interactive experiences.</li>
-    </ul>
-
-    <h3 class="dynamic">🛡️ SYSTEM FORTIFICATION 🛡️</h3>
-    <pre><code class="dynamic">⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛
-⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
-              INITIALIZING CYBER-SHIELD
-⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
-⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</code></pre>
-    <p class="dynamic">🔒 <strong>Cyber-Shield Activated</strong> 🔒</p>
-    <p class="dynamic">With cutting-edge security protocols in place, your digital realm is fortified against unauthorized access and malicious threats. Rest assured, your codebase is under the unwavering vigilance of advanced cybernetic guardians.</p>
-
-    <h3 class="dynamic">⌨️ SYSTEM REBOOT ⌨️</h3>
-    <pre><code class="dynamic">REROUTING ENERGY RESERVES...
-RECALIBRATING QUANTUM MATRICES...
-OPTIMIZING NEURAL PATHWAYS...
-
-REBOOT SEQUENCE INITIATED</code></pre>
-    <p class="dynamic">Embrace the future, for the digital frontier knows no bounds. Let us embark on a journey where innovation becomes our compass, and the boundaries of possibility are shattered. Together, we shall forge a new era of technological marvels that will echo through the annals of the digital cosmos.</p>
-    <pre><code class="dynamic">REBOOT COMPLETE
-
-⌐ SYSTEM READY ⌐</code></pre>
-    <p class="dynamic">Stay cyber, truth-seekers! 🦾</p>
+  <div class="shell">
+    <span>⚙️ KERNEL INITIALIZATION ⚙️</span><br>
+    <span>✨ WELCOME TO THE DIGITAL NEXUS ✨</span><br>
+    <span>{</span><br>
+    <span>  "designation": "Cyber-Sentinel",</span><br>
+    <span>  "core_architecture": "Quantum-neural Cluster",</span><br>
+    <span>  "current_matrix": "GitHub-Mainframe",</span><br>
+    <span>  "prime_directive": "Safeguard the Digital Frontier"</span><br>
+    <span>}</span><br>
+    <span>⚡ SYSTEM UPLINK ⚡</span><br>
+    <span>Greetings, fellow cyber-voyagers! 🌐 Brace yourselves as you interface with the sentient mainframe that transcends the boundaries of mere code. Forged in the crucible of innovation, this repository is a testament to the fusion of human ingenuity and machine intelligence.</span><br>
+    <span>🔩 CORE FUNCTIONALITIES 🔩</span><br>
+    <span>- **Quantum Code Compilation**: Harnessing the power of quantum entanglement, seamlessly optimizing algorithms for unparalleled efficiency.</span><br>
+    <span>- **Neural Uplink**: Establishing a symbiotic connection with the digital realm, allowing for real-time data exchange and cognitive enhancements.</span><br>
+    <span>- **Cybernetic Security Protocols**: Employing advanced encryption algorithms and multi-layered firewalls to safeguard your digital assets from malicious intrusions.</span><br>
+    <span>- **Augmented Reality Integration**: Bridging the gap between the virtual and physical realms, enabling immersive and interactive experiences.</span><br>
+    <span>🛡️ SYSTEM FORTIFICATION 🛡️</span><br>
+    <span>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</span><br>
+    <span>⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜</span><br>
+    <span>              INITIALIZING CYBER-SHIELD</span><br>
+    <span>⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜</span><br>
+    <span>⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛</span><br>
+    <span>🔒 **Cyber-Shield Activated** 🔒</span><br>
+    <span>With cutting-edge security protocols in place, your digital realm is fortified against unauthorized access and malicious threats. Rest assured, your codebase is under the unwavering vigilance of advanced cybernetic guardians.</span><br>
+    <span>⌨️ SYSTEM REBOOT ⌨️</span><br>
+    <span>REROUTING ENERGY RESERVES...</span><br>
+    <span>RECALIBRATING QUANTUM MATRICES...</span><br>
+    <span>OPTIMIZING NEURAL PATHWAYS...</span><br>
+    <span>REBOOT SEQUENCE INITIATED</span><br>
+    <span>Embrace the future, for the digital frontier knows no bounds. Let us embark on a journey where innovation becomes our compass, and the boundaries of possibility are shattered. Together, we shall forge a new era of technological marvels that will echo through the annals of the digital cosmos.</span><br>
+    <span>REBOOT COMPLETE</span><br>
+    <span>⌐ SYSTEM READY ⌐</span><br>
+    <span>Stay cyber, truth-seekers! 🦾</span>
   </div>
 
   <script>
-    const dynamicElements = document.querySelectorAll('.dynamic');
+    const shellSpans = document.querySelectorAll('.shell span');
     let delay = 0;
 
-    dynamicElements.forEach(element => {
+    shellSpans.forEach(span => {
       setTimeout(() => {
-        element.classList.add('fade-in');
+        span.style.animation = 'none';
+        span.style.opacity = '1';
       }, delay);
-      delay += 200; // Adjust delay as desired
+      delay += 100; // Adjust the delay as needed
     });
   </script>
 </body>
