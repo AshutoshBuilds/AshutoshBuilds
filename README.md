@@ -41,31 +41,6 @@ REBOOT SEQUENCE INITIATED</code></pre>
   <p>Stay cyber, truth-seekers! 🦾</p>
 </div>
 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
-
-  #readme {
-    font-family: 'Orbitron', sans-serif;
-    color: #00ff00;
-    background-color: #000;
-    padding: 20px;
-    text-align: center;
-  }
-
-  h1, h2, h3 {
-    text-transform: uppercase;
-  }
-
-  code {
-    white-space: pre;
-    display: block;
-    text-align: left;
-  }
-
-  .json {
-    color: #f0db4f;
-  }
-</style>
 
 <script>
   // Add some dynamic effects
