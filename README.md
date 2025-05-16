@@ -51,8 +51,9 @@
 
   <!-- Animated System Shield -->
   <h2>🛡️ SYSTEM FORTIFICATION 🛡️</h2>
-  
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" width="100%" />
+  <div align="center">
+    <img src="https://raw.githubusercontent.com/AshutoshBuilds/AshutoshBuilds/main/assets/animated_snakes.svg" alt="Animated Snakes fighting for Data Orb" width="800" height="150" />
+  </div>
   
   <div align="center">
     <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
