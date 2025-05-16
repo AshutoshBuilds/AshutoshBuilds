@@ -2,7 +2,7 @@
 <div align="center">
   
   <!-- Animated Title -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=⚙️+KERNEL+INITIALIZATION+⚙️;✨+WELCOME+TO+THE+DIGITAL+NEXUS+✨" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.vercel.app?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=⚙️+KERNEL+INITIALIZATION+⚙️;✨+WELCOME+TO+THE+DIGITAL+NEXUS+✨" alt="Typing SVG" />
   
   <!-- Animated Badge Section -->
   <div>
