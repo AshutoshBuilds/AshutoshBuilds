@@ -26,7 +26,7 @@
   
   <div align="center">
     <img width="400" src="https://github-readme-stats.vercel.app/api?username=AshutoshBuilds&show_icons=true&hide_border=true&title_color=00EDC9&text_color=A9FEF7&icon_color=00B2CA&bg_color=0D1117" alt="GitHub Stats" />
-    <img width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=AshutoshBuilds&hide_border=true&stroke=00EDC9&ring=00EDC9&fire=00B2CA&currStreakNum=A9FEF7&sideNums=A9FEF7&currStreakLabel=00EDC9&background=0D1117&dates=A9FEF7" alt="GitHub Streak Stats" />
+    <img width="400" src="https://streak-stats.demolab.com?user=AshutoshBuilds&hide_border=true&stroke=00EDC9&ring=00EDC9&fire=00B2CA&currStreakNum=A9FEF7&sideNums=A9FEF7&currStreakLabel=00EDC9&background=0D1117&dates=A9FEF7" alt="GitHub Streak Stats" />
   </div>
 
   <!-- Animated Feature Cards -->
@@ -70,9 +70,9 @@
   <p align="center">Embrace the future, for the digital frontier knows no bounds. Let us embark on a journey where innovation becomes our compass, and the boundaries of possibility are shattered. Together, we shall forge a new era of technological marvels that will echo through the annals of the digital cosmos.</p>
 
   <!-- Final Animation -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00EDC9&center=true&vCenter=true&width=435&lines=REBOOT+COMPLETE;⌐+SYSTEM+READY+⌐" alt="System Ready" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00EDC9&center=true&vCenter=true&width=435&lines=REBOOT+COMPLETE;SYSTEM+READY" alt="System Ready" />
   
-  <p align="center">Stay cyber, truth-seekers! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Robot.png" alt="Robot" width="25" height="25" /></p>
+  <p align="center">Stay cyber, truth-seekers! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Robot" width="25" height="25" /></p>
 
   <!-- Profile Views Counter -->
   <p align="center">
