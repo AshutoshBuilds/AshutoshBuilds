@@ -26,7 +26,7 @@
   
   <div align="center">
     <img width="400" src="https://github-readme-stats.vercel.app/api?username=AshutoshBuilds&show_icons=true&hide_border=true&title_color=00EDC9&text_color=A9FEF7&icon_color=00B2CA&bg_color=0D1117" alt="GitHub Stats" />
-    <img width="400" src="https://streak-stats.demolab.com?user=AshutoshBuilds&hide_border=true&stroke=00EDC9&ring=00EDC9&fire=00B2CA&currStreakNum=A9FEF7&sideNums=A9FEF7&currStreakLabel=00EDC9&background=0D1117&dates=A9FEF7" alt="GitHub Streak Stats" />
+    <img width="400" src="https://nirzak-streak-stats.vercel.app/?user=AshutoshBuilds&theme=dark&hide_border=true&stroke=00EDC9&ring=00EDC9&fire=00B2CA&currStreakNum=A9FEF7&sideNums=A9FEF7&currStreakLabel=00EDC9&background=0D1117&sideLabels=A9FEF7&dates=A9FEF7" alt="GitHub Streak Stats" />
   </div>
 
   <!-- Animated Feature Cards -->
